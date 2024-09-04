@@ -1,0 +1,388 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   font-weight: 300;
+   font-style: normal;
+   font-family: TiemposHeadline-Regular;
+
+}
+
+.contenedor-global{
+
+    margin-top: 70px;
+
+}
+.contenedor-header{
+    position: relative;
+
+}
+
+
+body{
+   background-color: 			#12161a;
+   /* #1f282f */
+   
+   
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: rgba(255, 255, 255, 0.219);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 70px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 10px;
+ 
+}
+
+#buscar{
+    margin-right: 20px;
+    padding: 10px 15px;
+    font-size: 18px;
+    border: rgba(255, 255, 255, 0.404) solid 1px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.212);
+    background: url(/img/search.png) no-repeat;
+    background-position: 210px;
+    
+}
+
+#buscar::placeholder{
+    color: rgb(0, 0, 0);
+}
+.nav{
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: "Fjalla One", sans-serif;
+
+}
+
+.nav a{
+    font-weight: 500;
+}
+
+.logo img{
+    margin-top: 8px;
+    width: 70px;
+}
+
+.contenedor-main{
+    grid-template-columns: repeat(6, 1fr);
+    display: grid;
+    gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+}
+#presentacion{
+    grid-row:1;
+    grid-column: 2/6;
+    background-color: 			#1f282f;
+    height: 250px;
+    margin-top: 20px;
+    width: 1150px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+
+#presentacion p{
+    padding: 10px;
+   font-family: TiemposHeadline-Regular;
+   font-size: 20px;
+
+}
+#presentacion h2{
+    padding: 10px;
+    font-family: "TiemposHeadline-Regular";
+    font-weight: 600;
+
+
+
+}
+
+.side-bar{
+    grid-column: 1;
+    background-color: #1f282f;
+    grid-row:1/2;
+    height: 881px;
+    box-shadow: 0px 0px 10px;
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+
+
+.contenedor-posts{
+    grid-column: 2/6;
+    grid-row:1;
+    background-color: red;
+    background: transparent;
+    margin-top: 300px;
+
+}
+
+.contenedor-img{
+    grid-column: 7;
+    grid-row:2;
+    margin-top: 300px;
+
+
+
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+.posts{
+    text-align: center;
+padding: 20px 0px;
+width: 100%;
+
+
+   
+}
+
+
+#post-1{
+    
+    background-color: 			#1f282f;
+
+    width: 100%;
+    height: 730px;
+    box-shadow: 0px 0px 10px;
+    border-radius: 20px;
+}
+
+#post-2{
+    
+    background-color: 			#1f282f;
+
+    width: 100%;
+
+    height: 730px;
+    box-shadow: 0px 0px 10px;
+    margin-top: 42px;
+    border-radius: 20px;
+}
+#post-3{
+
+    background-color: 			#1f282f;
+
+    width: 100%;
+    height: 730px;
+    box-shadow: 0px 0px 10px;
+    margin-top: 42px;
+    border-radius: 20px;
+}
+#sobre-mi{
+    background-color: 			#1f282f;
+
+    width: 100%;
+    height: 250px;
+    box-shadow: 0px 0px 10px;
+    margin-top: 42px;
+    border-radius: 20px;
+}
+
+
+footer{
+    height: 130px;
+    background-color: 			#1f282f;
+
+    color: white;
+    padding: 100px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.privacidad{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.privacidad a{
+    padding: 0px 10px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+}
+
+.nav a{
+    padding: 0px 10px;
+    color: black;
+    text-decoration: none;
+}
+.nav a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(177, 96, 214);
+
+}
+
+footer a{
+    color: white;
+
+}
+footer a:hover{
+    color: rgb(177, 96, 214);
+}
+
+.posts textarea{
+    width: 100%;
+    height: 20%;
+    
+    border-radius: 20px;
+}
+
+#post-1 textarea{
+    margin-top: 178px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#post-2 textarea{
+    margin-top: 199px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#post-3 textarea{
+    margin-top: 137px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.contenedor-img img{
+    height: 730px;
+    width: 450px;
+    margin: 20px 0px;
+    margin-right: 10px;
+    box-shadow: 0px 0px 10px;
+    border-radius: 20px;
+
+}
+.contenedor-padre-img{
+    text-align: center;
+}
+
+.posts h2{
+    text-align: left;
+    padding: 20px;
+    color: white;
+    font-family: "TiemposHeadline-Regular";
+    font-weight: 600;
+}
+
+.posts p{
+    text-align: left;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+   
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.categorias{
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 25px;
+   
+}
+
+.categorias li, a{
+    padding: 10px 10px;
+    font-size: 20px;
+    color: white;
+}
+.categorias a:hover{
+    color: rgb(177, 96, 214);
+
+}
+.widget{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 250px;
+    margin-right: 10px;
+}
+.widget img{
+width: 100%;
+margin-top: 10px;
+}
+
+@media (max-width:600px)  { 
+
+    h2{
+        font-size: 15;
+    }
+    h3{
+        font-size: 15;
+    }
+    .side-bar{
+       width: 150px;
+       font-size: 10px;
+     
+    
+    }
+    .side-bar a{
+        font-size: 15px;
+    }
+    #presentacion{
+        width: 360px;
+
+
+
+    }
+    #presentacion p{
+        font-size: 12px;
+
+
+    }
+    .posts{
+        width: 360px;
+    }
+    .posts p{
+        font-size: 12px;
+    }
+    .posts textarea{
+        height: 100px;
+    }
+    #post-3 textarea{
+        margin-top: 25px;
+    }
+    #post-2 textarea{
+        margin-top: 190px;
+    }
+    #post-1 textarea{
+        margin-top: 130px;
+    }
+    
+    #buscar{
+        width: 150px;
+        background-position: 100px;
+    }
+    
+    .nav{
+        font-size: 5px;
+    }
+    .logo{
+        margin-right: 40px;
+    }
+
+    .privacidad a{
+        font-size: 15px;
+    }
+   .widget{
+    width: 100%;
+   }
+ }
